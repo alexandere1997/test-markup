@@ -14,7 +14,7 @@ let menu = () => {
     close.addEventListener("click", () => {
         nav__box.style.transform = "translateY(-385px)"
         setTimeout(() => {
-            menu.style.transform = "translateY(-439px)"
+            menu.style.transform = "translateY(-539px)"
         }, 700)
     });
 }
