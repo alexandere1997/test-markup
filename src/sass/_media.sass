@@ -1,0 +1,46 @@
+@media (max-width: 1199px)
+    .blokOne
+        &__item
+            width: 272px;
+@media (max-width: 991px)
+    .blokFri
+        &__items
+            flex-wrap: wrap
+            img
+                margin-bottom: 20px
+    .header
+        &__nav
+            justify-content: space-between;
+        &__link
+            display: none
+        &__dropdown
+            display: none
+        &__line
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            height: 20px
+            cursor: pointer
+            span
+                display: flex
+                width: 25px
+                height: 2px
+                background-color: #fff;
+@media (max-width: 575px)
+    .footer
+        &__links
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    .header
+        &__content
+            h3
+                font-size: 30px
+            p
+                font-size: 15px
+                margin-top: 0
+        &__nav
+            margin-top: 5px
+            img
+                width: 40%

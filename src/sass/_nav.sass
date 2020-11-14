@@ -1,0 +1,60 @@
+.nav
+    background-color: rgba(114, 114, 114, 0.9)
+    position: fixed;
+    width: 100%;
+    z-index: 1000
+    height: 58%
+    transition: 0.4s
+    transform: translateY(-439px);
+    &__box
+        display: flex
+        flex-direction: column
+        transition: 0.4s
+        transform: translateY(-385px);
+        img
+            margin-top: 30px
+    &__link
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        transition: 0.4s
+        margin-top: 30px
+        &:active
+            color: #FF0000
+    &__authorization
+        width: 100%
+        display: flex
+        flex-direction: row
+        justify-content: flex-end
+        height: 100%
+        align-items: center
+    &__dropdown
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        img
+            margin-top: 30px
+            margin-left: 10px
+    &__line
+        height: 30px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        position: absolute;
+        right: 10px;
+        top: 80px;
+        cursor: pointer
+        span
+            width: 25px
+            height: 2px
+            background-color: #ffffff
+            display: flex
+    &__left
+        margin-top: 28px;
+        transform: rotateZ(45deg);
+    &__right
+        transform: rotateZ(-45deg);
